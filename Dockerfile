@@ -1,4 +1,4 @@
-ARG BALENA_MACHINE_NAME="raspberry-pi2"
+ARG BALENA_MACHINE_NAME="raspberry-pi3"
 FROM balenalib/${BALENA_MACHINE_NAME}-openjdk
 
 RUN [ "cross-build-start" ]
